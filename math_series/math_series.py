@@ -17,5 +17,4 @@ def sum_series(num,n1=0,n2=1):
     elif (n1 == 2) and (n2 ==1):
         return recur_lucas(num)
     else:
-        # return(sum_series(num-1,n1,n2) + sum_series(num-2,n1,n2))
-        return num + sum_series(num-1)
+        return recur_fibo(num) + recur_lucas(n1)
