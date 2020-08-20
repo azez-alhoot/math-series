@@ -1,14 +1,15 @@
 # Python Lap-2 
 
-**Fibonacci Series**
 
-Create a function called fibonacci. The function should have one parameter n. The function should return the nth value in the fibonacci series. You may implement the function using recursion or iteration.
+# Description
 
+The purpose of this repo is to practice on using Test-driven development (TTD) process, by writting the tests then implement the actual code, made small changes with many cycles of Red-Green-Refactor. Also to practice on testing with pytest and pywatch.
 
-
-**Lucas Numbers**
-
-Create a function called lucas. The function should have one parameter n. The function should return the nth value in the lucas series. You may implement the function using recursion or iteration.
+The program basically returns both Fibonacci series and Lucas series for any given number or a list of numbers.
 
 
 [PR link](https://github.com/azez-alhoot/math-series/pull/1)
+
+# Notes:
+
+full python script, for the tests I used pytest and pywatch.

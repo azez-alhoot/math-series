@@ -87,20 +87,20 @@ def test_sum_ten():
 
 def test_sum_twenty_5_5():
     actual = sum_series(20,5,5)
-    expected = 4201
+    expected = 6776
     assert actual == expected
 
 def test_sum_thirteen_10_6():
     actual = sum_series(13,10,6)
-    expected = 157
+    expected = 356
     assert actual == expected
 
 def test_sum_twenty_three_5_3():
     actual = sum_series(23,5,3)
-    expected = 17734
+    expected = 28668
     assert actual == expected
 
 def test_sum_fifteen_4_3():
     actual = sum_series(15,4,3)
-    expected = 392
+    expected = 617
     assert actual == expected
