@@ -1,8 +1,9 @@
 def recur_fibo(num):
-    if num <=1:
-        return num
-    else:
-        return(recur_fibo(num-1) + recur_fibo(num-2))
+  if num == 0:
+    return 0
+  elif num == 1:
+    return 1
+  return(recur_fibo(num-1) + recur_fibo(num-2))
 
 def recur_lucas(n):
   if (n==0):
